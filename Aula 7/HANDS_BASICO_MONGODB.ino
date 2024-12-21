@@ -116,6 +116,7 @@ void loop() {
   } else {
     digitalWrite(BUZZER1, LOW);
   }
+  
   // Envia dados para o MongoDB Atlas
   enviarDados(temperature, humidity, oxigenacao);
   
